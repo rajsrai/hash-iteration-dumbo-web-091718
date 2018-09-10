@@ -6,7 +6,6 @@ suite_d: "Charlie Chaplin",
 suite_e: "Crumpet the Elf"
 }
 
-pry
 def select_winner(passengers)
  winner = ""
 passengers.each do |suite, name|
@@ -18,4 +17,3 @@ end
 winner 
 
 end
-binding.pry
